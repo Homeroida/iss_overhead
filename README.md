@@ -6,17 +6,17 @@ This Python script periodically checks if the International Space Station (ISS) 
 
 1. Clone the repository to your local machine.
 
-git clone https://github.com/your-username/iss-overhead-notification.git
+-  ```git clone https://github.com/your-username/iss-overhead-notification.git```
 
 2. Install the required packages.
 
-pip install requests
+ -  ```pip install requests```
 
 3. Open the Python file in a text editor and modify the `email` and `password` variables to match your email address and password. Also, update the `MY_LAT` and `MY_LONG` variables to match your location.
 
 4. Run the Python script.
 
-python iss_overhead_notification.py
+  python iss_overhead_notification.py
 
 ## How it works
 
@@ -35,3 +35,6 @@ If both functions return True, the script sends an email notification to the spe
 - The script might not work as expected if the specified email address and password are incorrect, if the location values are incorrect, or if the ISS or sunrise-sunset APIs are down or return unexpected values.
 
 - This script can be scheduled to run automatically using tools like cron on Unix-based systems or Task Scheduler on Windows.
+
+# Contact
+If you have any questions or issues, please feel free to contact me at chanishvili@gmasil.com.
