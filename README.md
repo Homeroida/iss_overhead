@@ -5,7 +5,8 @@ This Python script periodically checks if the International Space Station (ISS) 
 ## Setup
 
 1. Clone the repository to your local machine.
-   git clone https://github.com/your-username/iss-overhead-notification.git
+
+git clone https://github.com/your-username/iss-overhead-notification.git
 
 2. Install the required packages.
 
